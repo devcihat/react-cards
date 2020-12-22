@@ -13,7 +13,7 @@ function Card(props) {
   const ITEM = props.item;
 
   return (
-    <div className="col mb-2 ">
+    <div className="col-sm-6 col-md-3 col-lg-4 mb-2 ">
       <div style={{ width: "20rem" }} className="card">
         <img src={ITEM.imgUrl} className="img-fluid" alt="..." />
         <div className="card-body">
